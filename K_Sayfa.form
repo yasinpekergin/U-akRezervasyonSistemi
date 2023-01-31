@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="0" red="33" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,12,0,0,2,125"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="640" height="270"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hava Yolu"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="130" width="80" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gidilecek Yer"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="60" width="80" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="Se&#xe7;iniz"/>
+                <StringItem index="1" value="T&#xfc;rk Hava Yollar&#x131;"/>
+                <StringItem index="2" value="Pegasus"/>
+                <StringItem index="3" value="Sunexpress"/>
+                <StringItem index="4" value="AnadoluJet"/>
+                <StringItem index="5" value="Onur Air"/>
+                <StringItem index="6" value="Atlasglobal"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="130" width="170" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="82">
+                <StringItem index="0" value="Se&#xe7;iniz"/>
+                <StringItem index="1" value="&quot;Adana&quot;"/>
+                <StringItem index="2" value="&quot;Ad&#x131;yaman&quot;"/>
+                <StringItem index="3" value="&quot;Afyonkarahisar&quot;"/>
+                <StringItem index="4" value="&quot;A&#x11f;r&#x131;&quot;"/>
+                <StringItem index="5" value="&quot;Aksaray&quot;"/>
+                <StringItem index="6" value="&quot;Amasya&quot;"/>
+                <StringItem index="7" value="&quot;Ankara&quot;"/>
+                <StringItem index="8" value="&quot;Antalya&quot;"/>
+                <StringItem index="9" value="&quot;Ardahan&quot;"/>
+                <StringItem index="10" value="&quot;Artvin&quot;"/>
+                <StringItem index="11" value="&quot;Ayd&#x131;n&quot;"/>
+                <StringItem index="12" value="&quot;Bal&#x131;kesir&quot;"/>
+                <StringItem index="13" value="&quot;Bart&#x131;n&quot;"/>
+                <StringItem index="14" value="&quot;Batman&quot;"/>
+                <StringItem index="15" value="&quot;Bayburt&quot;"/>
+                <StringItem index="16" value="&quot;Bilecik&quot;"/>
+                <StringItem index="17" value="&quot;Bing&#xf6;l&quot;"/>
+                <StringItem index="18" value="&quot;Bitlis&quot;"/>
+                <StringItem index="19" value="&quot;Bolu&quot;"/>
+                <StringItem index="20" value="&quot;Burdur&quot;"/>
+                <StringItem index="21" value="&quot;Bursa&quot;"/>
+                <StringItem index="22" value="&quot;&#xc7;anakkale&quot;"/>
+                <StringItem index="23" value="&quot;&#xc7;ank&#x131;r&#x131;&quot;"/>
+                <StringItem index="24" value="&quot;&#xc7;orum&quot;"/>
+                <StringItem index="25" value="&quot;Denizli&quot;"/>
+                <StringItem index="26" value="&quot;Diyarbak&#x131;r&quot;"/>
+                <StringItem index="27" value="&quot;D&#xfc;zce&quot;"/>
+                <StringItem index="28" value="&quot;Edirne&quot;"/>
+                <StringItem index="29" value="&quot;Elaz&#x131;&#x11f;&quot;"/>
+                <StringItem index="30" value="&quot;Erzincan&quot;"/>
+                <StringItem index="31" value="&quot;Erzurum&quot;"/>
+                <StringItem index="32" value="&quot;Eski&#x15f;ehir&quot;"/>
+                <StringItem index="33" value="&quot;Gaziantep&quot;"/>
+                <StringItem index="34" value="&quot;Giresun&quot;"/>
+                <StringItem index="35" value="&quot;G&#xfc;m&#xfc;&#x15f;hane&quot;"/>
+                <StringItem index="36" value="&quot;Hakk&#xe2;ri&quot;"/>
+                <StringItem index="37" value="&quot;Hatay&quot;"/>
+                <StringItem index="38" value="&quot;I&#x11f;d&#x131;r&quot;"/>
+                <StringItem index="39" value="&quot;Isparta&quot;"/>
+                <StringItem index="40" value="&quot;&#x130;stanbul&quot;"/>
+                <StringItem index="41" value="&quot;&#x130;zmir&quot;"/>
+                <StringItem index="42" value="&quot;Kahramanmara&#x15f;&quot;"/>
+                <StringItem index="43" value="&quot;Karab&#xfc;k&quot;"/>
+                <StringItem index="44" value="&quot;Karaman&quot;"/>
+                <StringItem index="45" value="&quot;Kars&quot;"/>
+                <StringItem index="46" value="&quot;Kastamonu&quot;"/>
+                <StringItem index="47" value="&quot;Kayseri&quot;"/>
+                <StringItem index="48" value="&quot;Kilis&quot;"/>
+                <StringItem index="49" value="&quot;K&#x131;r&#x131;kkale&quot;"/>
+                <StringItem index="50" value="&quot;K&#x131;rklareli&quot;"/>
+                <StringItem index="51" value="&quot;K&#x131;r&#x15f;ehir&quot;"/>
+                <StringItem index="52" value="&quot;Kocaeli&quot;"/>
+                <StringItem index="53" value="&quot;Konya&quot;"/>
+                <StringItem index="54" value="&quot;K&#xfc;tahya&quot;"/>
+                <StringItem index="55" value="&quot;Malatya&quot;"/>
+                <StringItem index="56" value="&quot;Manisa&quot;"/>
+                <StringItem index="57" value="&quot;Mardin&quot;"/>
+                <StringItem index="58" value="&quot;Mersin&quot;"/>
+                <StringItem index="59" value="&quot;Mu&#x11f;la&quot;"/>
+                <StringItem index="60" value="&quot;Mu&#x15f;&quot;"/>
+                <StringItem index="61" value="&quot;Nev&#x15f;ehir&quot;"/>
+                <StringItem index="62" value="&quot;Ni&#x11f;de&quot;"/>
+                <StringItem index="63" value="&quot;Ordu&quot;"/>
+                <StringItem index="64" value="&quot;Osmaniye&quot;"/>
+                <StringItem index="65" value="&quot;Rize&quot;"/>
+                <StringItem index="66" value="&quot;Sakarya&quot;"/>
+                <StringItem index="67" value="&quot;Samsun&quot;"/>
+                <StringItem index="68" value="&quot;&#x15e;anl&#x131;urfa&quot;"/>
+                <StringItem index="69" value="&quot;Siirt&quot;"/>
+                <StringItem index="70" value="&quot;Sinop&quot;"/>
+                <StringItem index="71" value="&quot;Sivas&quot;"/>
+                <StringItem index="72" value="&quot;&#x15e;&#x131;rnak&quot;"/>
+                <StringItem index="73" value="&quot;Tekirda&#x11f;&quot;"/>
+                <StringItem index="74" value="&quot;Tokat&quot;"/>
+                <StringItem index="75" value="&quot;Trabzon&quot;"/>
+                <StringItem index="76" value="&quot;Tunceli&quot;"/>
+                <StringItem index="77" value="&quot;U&#x15f;ak&quot;"/>
+                <StringItem index="78" value="&quot;Van&quot;"/>
+                <StringItem index="79" value="&quot;Yalova&quot;"/>
+                <StringItem index="80" value="&quot;Yozgat&quot;"/>
+                <StringItem index="81" value="&quot;Zonguldak&quot;"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="60" width="170" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="ff" red="33" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Giri&#x15f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="200" y="200" width="260" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Geri D&#xf6;n"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="20" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
